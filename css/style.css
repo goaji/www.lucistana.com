@@ -16,6 +16,7 @@ body {
 
 .svg-logo {
   height: 100%;
+  width: 100px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -23,7 +24,6 @@ body {
 }
 .svg-logo svg {
   height: 75%;
-  fill: white;
 }
 .hero-container {
   width: 100vw;
@@ -63,6 +63,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height: 50px;
+}
+.navbar nav {
+  align-self: center;
 }
 nav ul {
   display: flex;
@@ -513,5 +516,28 @@ nav ul a {
     width: 200px;
     height: 200px;
     border-radius: 100px;
+  }
+
+  .title h1 {
+    font-size: 30px;
+}
+
+
+/* mobile phones */
+@media (max-width: 480px) {
+  .svg-logo svg {
+    height: 50%;
+  }
+  .nav-links {
+    font-size: 15px;
+  }
+  .title h1 {
+    font-size: 22px;
+}
+
+
+@media (max-width: 350px) {
+  .svg-logo {display: none
+
   }
 }
